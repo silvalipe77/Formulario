@@ -1,4 +1,8 @@
 /* Todos os elementos da página */
+:root {
+  --preta: #141414;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +11,14 @@
 /* Elementos com o ID "titulo" */
 #titulo {
   font-family: sans-serif;
-  color: #191970;
+  color: var(--preta);
   margin-left: 7%;
 }
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
   font-family: sans-serif;
-  color: #191970;
+  color: var(--preta);
   margin-left: 12%;
 }
 
@@ -32,7 +36,7 @@ body {
   background-color: #e5e5e5;
   font-family: sans-serif;
   font-size: 1em;
-  color: #191970;
+  color: var(--preta);
   margin-left: 36%;
   margin-top: 2%;
   justify-content: center;
@@ -43,7 +47,7 @@ input,
 button {
   font-family: sans-serif;
   font-size: 1em;
-  color: #191970;
+  color: var(--preta);
   border-radius: 5px;
 }
 
@@ -70,7 +74,7 @@ h2 {
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
   margin-bottom: 0.2em;
-  color: #191970;
+  color: var(--preta);
   display: block;
 }
 
@@ -84,7 +88,7 @@ fieldset.grupo .campo {
 .campo input[type='text'],
 .campo input[type='email'] {
   padding: 0.2em;
-  border: 1px solid #191970;
+  border: 1px solid var(--preta);
   box-shadow: 2px 2px 2px rgba(173, 216, 230, 0.2);
   display: block;
 }
@@ -97,7 +101,7 @@ fieldset.grupo .campo {
 /* Elemento de classe "botao" */
 .botao {
   font-size: 1.2em;
-  background: #191970;
+  background: var(--preta);
   border: 0;
   margin-bottom: 1em;
   color: #ffffff;
